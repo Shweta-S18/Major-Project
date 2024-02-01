@@ -1,0 +1,90 @@
+
+/* Filter Options*/
+.filters-opt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#filters{
+    display: flex;
+     align-items: center;
+     cursor: pointer;
+   }
+   .filter{
+     text-align: center;
+     margin-right: 2rem;
+     margin-top: 2rem;
+     opacity: 0.7;
+     white-space: nowrap;
+   }
+   .filter:hover{
+     opacity: 1;
+     cursor: pointer;
+   }
+   .filter p{
+     font-size: 0.8rem;
+   }
+   .tax-info{
+     display: none;
+   }
+   .tax-toggle{
+     border: 1px solid black;
+     border-radius: 1rem;
+     height: 3.25rem;
+     padding: 1rem;
+     margin-left: 2rem;
+     display: flex;
+     align-items: center;
+     white-space: nowrap;
+   }
+
+ .material-symbols-outlined{
+    padding-top: 1rem;
+ }
+ /* media Query */
+ @media screen and (max-width: 500px){
+    #filters{
+        max-width: 300px;
+        background-color: #fff;
+        overflow-x: scroll;
+        white-space: nowrap;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    #filters::-webkit-scrollbar{
+        display: none;
+    }
+    .tax-toggle{
+        padding: 0.5rem;
+        height: 2.5rem;
+    }
+    .tax-toggle .form-check-label{
+        display: none;
+    }
+ }
+ @media screen and (min-width: 500px) and (max-width: 760px) {
+    #filters{
+        max-width: 550px;
+        background-color: #fff;
+        overflow-x: scroll;
+        white-space: nowrap;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    #filters::-webkit-scrollbar{
+        display: none;
+    }
+ }
+
+ @media screen and (min-width: 761px) and (max-width: 1400px)  {   
+    #filters{
+        width: 1000px;
+        overflow-x: scroll;
+        white-space: nowrap;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    #filters::-webkit-scrollbar{
+        display: none;
+    }
+}
