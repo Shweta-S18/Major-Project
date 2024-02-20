@@ -20,7 +20,7 @@ Wonderlust is a full-stack web application inspired by Airbnb, designed to conne
 - **Image Storage**: Cloudinary
 
 ## Live Demo
-Check out Wonderlust live here <a href="https://major-project-rm6z.onrender.com/listings">https://major-project-rm6z.onrender.com/listings</a>
+Check out Wonderlust live here <a href="https://major-project-rm6z.onrender.com/listings" target="_blank">https://major-project-rm6z.onrender.com/listings</a>
 
 
 
